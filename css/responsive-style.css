@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1186px){
+    section#know-more img.woman{
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 988px){
+    header nav.desk-nav ul>li,footer ul>li{
+        margin-left: 15px;
+    }
+    section#know-more img.woman{
+        position: absolute;
+        top:  10px;
+    }
+    section#know-more p.offset{
+        margin-top: 100px;
+    }
+    section#steps{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    section#know-more img.woman{
+        position: static;
+        margin-top: 0;
+    }
+    section#know-more p.offset,section#start p, section#know-more p{
+        text-align: center;
+    }
+    section#start button.start{
+        margin-top: 30px;
+    }
+    section#start{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    footer img.logo{
+        margin-left: calc(50% - 115px);
+    }
+    section#know-more button.know-more,section#start button.start{
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px){
+    header nav.mobile-nav button.menu-btn,header nav.mobile-nav button.menu-btn>img{
+        width: 40px;
+        height: 40px;
+    }
+    header nav.mobile-nav button.menu-btn{
+        margin-top: 30px;
+    }
+    #menu-mobile img.logo{
+        width: 80%;
+    }
+}

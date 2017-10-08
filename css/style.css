@@ -1,0 +1,309 @@
+/*FONTES*/
+@font-face{
+    font-family: 'Ubuntu-Regular';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Ubuntu-Light';
+    src: url('../fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+body{
+    font-family: 'Ubuntu-Regular';
+}
+
+a,li{
+    text-decoration: none;
+    outline: none;
+    transition: all .75s;
+    -o-transition: all .75s;
+    -moz-transition: all .75s;
+    -ms-transition: all .75s;
+    -webkit-transition: all .75s;
+}
+
+button{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: left;
+    border-radius: 30px;
+    transition: all .75s;
+    -o-transition: all .75s;
+    -moz-transition: all .75s;
+    -ms-transition: all .75s;
+    -webkit-transition: all .75s;
+}
+
+a:hover{
+    text-decoration: none;
+    outline: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+}
+
+header nav.desk-nav img.logo{
+    margin-top: 30px;
+}
+
+header nav.desk-nav ul>li{
+    float: right;
+    margin-left: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+header nav.desk-nav ul>li>a{
+    color: #868686;
+}
+
+header nav.desk-nav ul>li>a:hover{
+    color: #df3883;
+}
+
+section#know-more{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+}
+
+section#know-more .container{
+    position: relative;
+}
+
+section#know-more p.offset{
+    margin-top: 250px;
+    color: #5e5959;
+    font-size: 2em;
+}
+section#know-more p{
+    color: #df3e86;
+}
+
+section#know-more img.woman{
+    background-color: #f7f7f7;
+}
+
+section#know-more button.know-more{
+    background: #7e579e;
+    background: -webkit-linear-gradient(left, #7e579e, #db3688);
+    background: -o-linear-gradient(left, #7e579e, #db3688);
+    background: linear-gradient(to right, #7e579e, #db3688);
+    border: transparent;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section#know-more button.know-more>img{
+    float: right;
+    margin-top: 5px;
+}
+
+section#steps{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 175px;
+    padding-bottom:150px;
+}
+
+section#steps p.t1{
+    font-size: 2em;
+    color: #df3e86;
+}
+
+section#steps p.t2{
+    font-size: 2em;
+    color: #5e5959;
+    margin-bottom: 100px;
+}
+
+section#steps .steps p.t1{
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+section#steps .steps p.t2{
+    color: #5e5959;
+    font-size: 1em;
+}
+
+section#start{
+    width: 100%;
+    height: auto;
+    background-color: #dc3a83;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #fff;
+}
+
+section#start p{
+    font-size: 2em;
+    font-family: 'Ubuntu-Light';
+}
+
+section#start button.start{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+section#start button.start>img{
+    float: right;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+footer img.logo{
+    margin-top: 30px;
+}
+
+
+footer ul>li{
+    float: right;
+    margin-left: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+footer ul>li>a{
+    color: #868686;
+}
+
+footer ul>li>a:hover{
+    color: #df3883;
+}
+
+footer ul>li.facebook, footer ul>li.instagram{
+    background-color: #d6d6d6;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: transparent;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+ footer ul>li.instagram{
+    margin-left: 15px;
+ }
+
+footer ul>li.facebook>a>img, footer ul>li.instagram>a>img{
+    margin-top: 12px;
+    width: 25px;
+    height: 25px;
+}
+
+footer ul>li.facebook:hover, footer ul>li.instagram:hover{
+    background-color:  #dc3a83;
+}
+
+header nav.mobile-nav img.logo{
+    margin-top: 30px;
+}
+
+header nav.mobile-nav button.menu-btn{
+    background-color: transparent;
+    border: none !important;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    float: right;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+header nav.mobile-nav button.menu-btn>img{
+    width: 50px;
+    height: 50px;
+}
+
+#menu-mobile{
+    padding: 20px;
+    width: 70%;
+    background-color: #fff;
+    height: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: -70%;
+    transition: all .75s;
+    -o-transition: all .75s;
+    -moz-transition: all .75s;
+    -ms-transition: all .75s;
+    -webkit-transition: all .75s;
+    transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    overflow: auto;
+}
+
+#menu-mobile.active{
+    left: 0;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .3);
+}
+
+#menu-mobile ul>li{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#menu-mobile ul>li>a{
+    color: #868686;
+}
+
+#menu-mobile ul>li>a:hover{
+    color: #df3883;
+}
+
+body.active{
+    position: fixed;
+}
+
+#menu-mobile ul>li.facebook, #menu-mobile ul>li.instagram{
+    background-color: #d6d6d6;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: transparent;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: calc(50% - 25px);
+}
+#menu-mobile ul>li.facebook>a>img, #menu-mobile ul>li.instagram>a>img{
+    margin-top: 12px;
+    width: 25px;
+    height: 25px;
+}
+
+#menu-mobile ul>li.facebook:hover, #menu-mobile ul>li.instagram:hover{
+    background-color:  #dc3a83;
+}
+
+#menu-mobile img.logo{
+    margin-bottom: 40px;
+}
